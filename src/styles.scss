@@ -1,0 +1,30 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/utilities';
+@import 'tailwindcss/components';
+@import '@angular/material/prebuilt-themes/indigo-pink.css';
+
+html, body { height: 100%; }
+body { margin: 0; font-family: 'Arabic', "Helvetica Neue", sans-serif; }
+
+button {
+  &:focus {
+    outline: none;
+  }
+}
+
+@font-face {
+  font-family: 'Arabic';
+  src: url('/assets/fonts/Cairo-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Arabic';
+  src: url('/assets/fonts/Cairo-SemiBold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Arabic';
+  src: url('/assets/fonts/Cairo-Bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Arabic';
+  src: url('/assets/fonts/Cairo-Light.ttf') format('truetype');
+}
